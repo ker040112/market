@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>미래마켓 로그인</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: navy;
+            list-style-type: none;
+        }
+
+        .submenu {
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .submenu :hover {
+            background-color: lightgray;
+            text-decoration-color: black;
+        }
+
+        .submenu a {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+    
+        #inputForms {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+  
+    </style>
+
+    <script src = "/js/home/login.js" defer>
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="submenu"><a href="./index.html">미래마켓</a></li>
+             <li class="submenu"><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div id="inputForms">
+            ID : <input type="text" id="user_id"><br>
+            PW : <input type="password" id="user_pw"><br><br>
+            <button>로그인</button>
+    </div>
+ 
+    
+</body>
+</html>

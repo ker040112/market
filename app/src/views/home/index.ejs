@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>미래마켓 | 안전한 중고거래 플랫폼</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            background-color: white;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: navy;
+            list-style-type: none;
+        }
+
+        .submenu {
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .submenu :hover {
+            background-color: lightgray;
+            text-decoration-color: black;
+        }
+
+        .submenu a {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        
+        #main_disp {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #txts {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #seller_profile {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #item_img {
+            margin: 1%;
+        }
+
+        #seller_txt {
+            display:flex;
+            flex-direction:column;
+        }
+
+        #seller_img {
+            display: flex;
+            align-items: center;
+            padding: 1%;
+        }
+
+        #miraePay {
+            color: greenyellow;
+        }
+
+        #contactToSeller {
+            height: match-parent;
+            margin-right: 1vh;
+            margin-left: 2vh;
+            font-size: large;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 1vh 1vh;
+        }
+  
+    </style>
+
+    <script>
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="submenu"><a href="./index.html">미래마켓</a></li>
+            <li class="submenu"><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <div id="main_disp">
+        <img id="item_img" src="../src/imgs/items/item_1.jpg" alt="물품 사진" width=500px>
+        <div id="txts">
+            <span id="item_name">SpaceX Falcon 9 B1067.8 Booster</span>
+            <span id="item_location">전라남도 고흥군</span>
+            <span id="item_price">9,120,360,000</span>
+            <p id="item_detail">
+                신뢰도 99% 중형로켓 Falcon 9을 가질 수 있는 절호의 기회입니다!!<br>
+                8번 재사용되어 설계수명이 2번 남았습니다.<br>
+                지구-달 전이궤도까지 발사 가능합니다.<br>
+                발사대 임대료는 별도입니다.<br>
+                멀린1D+로 엔진 전체 교환했습니다.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div id="contact">
+        <div id="seller_profile">
+            <img id="seller_img" src="../src/imgs/sellers/seller_1.png" alt="판매자" width=60px>
+            <div id="seller_txt">
+                <span id="seller_id">0in</span>
+                <span id="seller_email">onezeroglgl@spacex.com</span>
+            </div>
+            <span id="miraePay">미래페이 인증 사용자</span>
+            <button type="button" onclick="goReplace('./pay.html')" id="contactToSeller">판매자와 연락하기</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
