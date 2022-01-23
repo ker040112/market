@@ -2,20 +2,25 @@
 
 const id = document.querySelector("#user_id"), 
     psword = document.querySelector("#user_pw"),
-    loginBtn = document.querySelector("#button");
-
-    loginBtn.addEventListener("click", login);
+    confirmPsword = document.querySelector("#user_pw_chk"),
+    name = document.querySelector("#user_name"),
+    registerBtn = document.querySelector("#button");
     
-    console.log(id.value);
+    registerBtn.addEventListener("click", register);
+    
+    function register(){
+        if(!id.value) return alert("아이디를 입력해주십시오.");
+        if(psword.value !== confirmPsword.value) return alert("비밀번호가 일치하지 않습니다.");
 
-    function login(){
          const req = {
              id : id.value,
              psword : psword.value,
+             name: name.value,
          };
          
+         console.log(req);
 
-         fetch("/login", {
+         fetch("/register", {
              method: "POST",
              headers: {
                  "Content-Type" : "application/json",
@@ -24,7 +29,7 @@ const id = document.querySelector("#user_id"),
          }).then((res) => res.json())
            .then((res) => {
              if(res.success){
-                 location.href = "/index";
+                 location.href = "/login";
              }
              else{
                  alert(res.msg);

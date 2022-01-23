@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>미래마켓 회원가입</title>
+
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+        #logo {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: x-large;
+        }
+
+        nav {
+            font-family: 'NanumSquareBold';
+            font-size: large;
+        }
+
+        body {
+            margin: 0;
+            background-color: white;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: navy;
+            list-style-type: none;
+        }
+
+        .submenu {
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .submenu :hover {
+            background-color: lightgray;
+            text-decoration-color: black;
+        }
+
+        .submenu a {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        #inputForm_div {
+            display: flex;
+            justify-content: center;
+        }
+
+        #infor_noti_rect {
+            display: flex;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .att_box {
+            border:1px solid; 
+            padding:2vh;
+            margin-left: 4vh;
+            margin-right: 4vh;
+        }
+  
+    </style>
+
+    <script src = "/js/home/register.js" defer>
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="submenu"><a id="logo" href="./index.html">미래마켓</a></li>
+            <li class="submenu"><a id="login" href="./login.html">로그인</a></li>
+        </ul>
+    </nav>
+
+    <h2 style="display: flex; justify-content: center;">미래마켓에 당도한것을 환영하오 낮선이여</h2><br><br>
+
+   <div class="att_box">
+       <h3>개인정보보호법에 따른 운영정책 고지사항</h3>
+       <p id="noti_comment">
+           운영정책 3조) [자료제출 사전고지의 책임 면책]  다음의 사건 발생시 서비스 운영사 (주)미래유통(이하 '회사'라 한다)은 회원 정보를 당사자의 사전동의없이 사법기관에 제출합니다.<br>
+            1. [대한민국 형법]을 위반하는 행위 (사기, 허가되지 않은 물건 판매 등)<br>
+            2. 사법기관이 자료제출을 요구하는 경우<br>
+            운영정책 5조) [서비스 제한] 회사는 다음의 경우 사용자의 서비스 이용을 제한할 수 있습니다.<br>
+            1. 신고건수가 5건을 넘은 경우<br>
+            2. 운영정책을 위반하거나, 사법기관으로부터 고발장이 접수된 사용자인 경우<br>
+       </p>
+       <a href="./attraction.html">전문 보기</a>
+   </div>
+   <div class="att_box" style="margin-top: 20px;">
+       <h3>미래페이 안전거래 서비스 가입</h3>
+       <p>
+        미래페이 안전거래 서비스는 블록체인 기반 사용자 인증 및 결제 시스템으로,  0inPayments Corp.에서 위탁 운영합니다. 따라서 회사는 0inPayments Corp.에 다음의 정보를 제공합니다.<br>
+        0inPayments Corp.는 사용자의 정보를 자율적으로 활용하여 안전거래 서비스 미래페이를 위탁운영합니다. 단, 제3자 제공은 제외됩니다.<br>
+        거래시 미래페이 서비스 이용이 강제됩니다. 회피를 목적으로 다른 서비스의 이용 유도하는 경우, 회사는 운영정책에 따라 사용자의 서비 이용을 제한할 수 있습니다.<br>
+       </p>
+   </div>
+   <br><br>
+
+    <div id="inputForm_div">
+        <form>                                         <!-- 백엔드 주소 확인 -->
+            이름 : <input type="text" id="user_name" placeholder="이름을 입력"><br>
+            eMail : <input type="email" id="user_email" placeholder="유효한 이메일 입력"><br>
+            전화번호 : <input type="text" id="user_tel" placeholder="-를 제외하고 입력"><br><br>
+
+            ID : <input type="text" id="user_id" placeholder="사용할 ID 입력"><br>
+            PW : <input type="password" id="user_pw" placeholder="사용할 PW 입력"><br>
+            PW확인 : <input type="password" id="user_pw_chk" placeholder="PW 확인"><br><br>
+            
+            위 내용을 확인하고, 가입에 동의합니다 <input type="checkbox" id="all_ok"> <br>
+            <p id="button">확인</p>
+            <input type="reset" value="입력 초기화" id="usr_reset" class="btns">
+
+        </form>
+    </div>
+    
+</body>
+</html>
