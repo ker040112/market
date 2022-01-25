@@ -18,7 +18,7 @@ const id = document.querySelector("#user_id"),
              name: name.value,
          };
          
-         console.log(req);
+         console.log("register", req);
 
          fetch("/register", {
              method: "POST",
@@ -32,6 +32,7 @@ const id = document.querySelector("#user_id"),
                  location.href = "/login";
              }
              else{
+                 console.log("false!");
                  alert(res.msg);
              }
          });

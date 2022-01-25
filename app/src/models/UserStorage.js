@@ -14,8 +14,9 @@ class UserStorage {
     return userInfo;
     }
 
-    static #getUsers(data, isAll,  fields){
+    static #getUsers(data, isAll, fields){
         const users = JSON.parse(data);
+        console.log("userstorage", users);
         if (isAll) return users;
 
         const newUsers = fields.reduce((newUsers, field)=>{
@@ -44,15 +45,16 @@ class UserStorage {
             .catch(console.error); 
     }
 
-    static save(userInfo) {
-        const users = this.getUsers(true);
+    static async save(userInfo) {
+        const users = await this.getUsers(true);
+        console.log("save", users);
         if(users.id.includes(userInfo.id)){
-            return new Error("이미 존재하는 아이디입니다.");
+            throw "이미 존재하는 아이디입니다.";
         }
         users.id.push(userInfo.id);
         users.name.push(userInfo.name);
         users.psword.push(userInfo.psword);
-        fs.writeFile("./src/databases/users.json", JSON.stringify.apply(users));
+        fs.writeFile("./src/databases/users.json", JSON.stringify(users));
         return { success: true };
     }  
 }
