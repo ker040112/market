@@ -1,0 +1,955 @@
+
+     @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+     #logo {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: x-large;
+    }
+	#Artboard {
+		position: absolute;
+		width: 1920px;
+		height: 4000px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: 미래마켓;
+		--web-view-id: Artboard;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#n_21 {
+		fill: rgba(220,220,220,1);
+	}
+	.n_21 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 600px;
+		left: 0px;
+		top: 119px;
+	}
+	#Text {
+		left: 200px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(1,1,104,1);
+	}
+	#MY {
+		left: 1672px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(1,1,104,1);
+	}
+	#Text_l {
+		left: 1549px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(1,1,104,1);
+	}
+	#n_ {
+		position: absolute;
+		width: 1520px;
+		height: 600px;
+		left: 200px;
+		top: 119px;
+		overflow: visible;
+	}
+	#n_23 {
+		fill: rgba(239,239,239,1);
+	}
+	.n_23 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 640px;
+		left: 0px;
+		top: 1087px;
+	}
+	#n__2 {
+		position: absolute;
+		width: 1520px;
+		height: 600px;
+		left: 200px;
+		top: 1132px;
+		overflow: hidden;
+	}
+	#Group {
+		position: absolute;
+		width: 350px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_11 {
+		fill: transparent;
+	}
+	.n_11 {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+	}
+	#TV_ {
+		left: 10px;
+		top: 371px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_000000_ {
+		left: 10px;
+		top: 470px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#n__ {
+		left: 10px;
+		top: 415px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_u {
+		position: absolute;
+		width: 350px;
+		height: 560px;
+		left: 470px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_11_v {
+		fill: transparent;
+	}
+	.n_11_v {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+	}
+	#Text_w {
+		left: 10px;
+		top: 371px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_00000_ {
+		left: 10px;
+		top: 470px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#n___y {
+		left: 10px;
+		top: 415px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_z {
+		position: absolute;
+		width: 350px;
+		height: 560px;
+		left: 940px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_11_ {
+		fill: transparent;
+	}
+	.n_11_ {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+	}
+	#n____ {
+		left: 10px;
+		top: 371px;
+		position: absolute;
+		overflow: visible;
+		width: 263px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_000000__ {
+		left: 10px;
+		top: 470px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#n___ {
+		left: 10px;
+		top: 415px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_ {
+		position: absolute;
+		width: 350px;
+		height: 560px;
+		left: 1410px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_11_ba {
+		fill: transparent;
+	}
+	.n_11_ba {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_____ {
+		left: 10px;
+		top: 371px;
+		position: absolute;
+		overflow: visible;
+		width: 263px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_000000__ba {
+		left: 10px;
+		top: 470px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#n___ba {
+		left: 10px;
+		top: 415px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#n___bb {
+		left: 200px;
+		top: 1003px;
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		color: rgba(1,1,104,1);
+	}
+	#brimnes-tv-bench-black__085127 {
+		position: absolute;
+		width: 350px;
+		height: 350px;
+		left: 200px;
+		top: 1132px;
+		overflow: visible;
+	}
+	#image_readtop_2020_1091993_160 {
+		position: absolute;
+		width: 350px;
+		height: 350px;
+		left: 670px;
+		top: 1132px;
+		overflow: visible;
+	}
+	#n_2159A424F2683AE1E {
+		position: absolute;
+		width: 350px;
+		height: 350px;
+		left: 1140px;
+		top: 1132px;
+		overflow: visible;
+	}
+	#Rectangle {
+		position: absolute;
+		width: 1520px;
+		height: 120px;
+		left: 200px;
+		top: 2516px;
+		overflow: visible;
+	}
+	#n_2 {
+		position: absolute;
+		width: 240px;
+		height: 80px;
+		left: 200px;
+		top: 816px;
+		overflow: visible;
+	}
+	#n_22 {
+		fill: rgba(248,248,248,1);
+	}
+	.n_22 {
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_bg {
+		fill: rgba(255,255,255,1);
+	}
+	.n_2_bg {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 64px;
+		top: 15px;
+	}
+	#Path {
+		fill: rgba(0,0,0,1);
+	}
+	.Path {
+		overflow: visible;
+		position: absolute;
+		width: 30.517px;
+		height: 26.151px;
+		left: 74px;
+		top: 27px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Text_bi {
+		left: 130px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_3 {
+		position: absolute;
+		width: 240px;
+		height: 80px;
+		left: 520px;
+		top: 821px;
+		overflow: visible;
+	}
+	#n_22_bk {
+		fill: rgba(248,248,248,1);
+	}
+	.n_22_bk {
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_bl {
+		fill: rgba(255,255,255,1);
+	}
+	.n_2_bl {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 41px;
+		top: 15px;
+	}
+	#laptop {
+		fill: rgba(0,0,0,1);
+	}
+	.laptop {
+		overflow: visible;
+		position: absolute;
+		width: 31.999px;
+		height: 25.6px;
+		left: 50px;
+		top: 27px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Text_bn {
+		left: 105px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_4 {
+		position: absolute;
+		width: 240px;
+		height: 80px;
+		left: 840px;
+		top: 816px;
+		overflow: visible;
+	}
+	#n_22_bp {
+		fill: rgba(248,248,248,1);
+	}
+	.n_22_bp {
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_bq {
+		fill: rgba(255,255,255,1);
+	}
+	.n_2_bq {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 63px;
+		top: 15px;
+	}
+	#edit-fade {
+		position: absolute;
+		width: 29.992px;
+		height: 29.992px;
+		left: 73px;
+		top: 25px;
+		overflow: visible;
+	}
+	#n_453 {
+		fill: rgba(165,165,165,1);
+	}
+	.n_453 {
+		overflow: visible;
+		position: absolute;
+		width: 9.556px;
+		height: 24.722px;
+		left: 3.196px;
+		top: 2.635px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n_454 {
+		fill: rgba(112,112,112,1);
+	}
+	.n_454 {
+		overflow: visible;
+		position: absolute;
+		width: 8.863px;
+		height: 24.722px;
+		left: 18.244px;
+		top: 2.635px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n_455 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.n_455 {
+		overflow: visible;
+		position: absolute;
+		width: 31.991px;
+		height: 31.992px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Text_bv {
+		left: 129px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_5 {
+		position: absolute;
+		width: 240px;
+		height: 80px;
+		left: 1160px;
+		top: 816px;
+		overflow: visible;
+	}
+	#n_22_bx {
+		fill: rgba(248,248,248,1);
+	}
+	.n_22_bx {
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_by {
+		fill: rgba(255,255,255,1);
+	}
+	.n_2_by {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 37px;
+		top: 15px;
+	}
+	#basket {
+		fill: rgba(0,0,0,1);
+	}
+	.basket {
+		overflow: visible;
+		position: absolute;
+		width: 34px;
+		height: 30px;
+		left: 45px;
+		top: 25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n__b {
+		left: 103px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 102px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_6 {
+		position: absolute;
+		width: 240px;
+		height: 80px;
+		left: 1480px;
+		top: 816px;
+		overflow: visible;
+	}
+	#n_22_b {
+		fill: rgba(248,248,248,1);
+	}
+	.n_22_b {
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_b {
+		fill: rgba(255,255,255,1);
+	}
+	.n_2_b {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 29px;
+		top: 15px;
+	}
+	#book {
+		fill: rgba(0,0,0,1);
+	}
+	.book {
+		overflow: visible;
+		position: absolute;
+		width: 31px;
+		height: 25px;
+		left: 39px;
+		top: 28px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n___b {
+		left: 95px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 26px;
+		color: rgba(0,0,0,1);
+	}
+	#n_24 {
+		fill: rgba(1,1,104,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.n_24 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 288px;
+		left: 0px;
+		top: 1932px;
+	}
+	#chair-g11a966645_1920 {
+		position: absolute;
+		width: 470px;
+		height: 470px;
+		left: 250px;
+		top: 1981px;
+		overflow: visible;
+	}
+	#n_95BB63A5BDF9C0F0B {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 750px;
+		top: 2246px;
+		overflow: visible;
+	}
+	#f4e8475a36fea0c346732365f362c7 {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 950px;
+		top: 2246px;
+		overflow: visible;
+	}
+	#apple-g1c442c8ad_1920 {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 1150px;
+		top: 2246px;
+		overflow: visible;
+	}
+	#apple-g1c442c8ad_1920_cb {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 1350px;
+		top: 2246px;
+		overflow: visible;
+	}
+	#apple-g1c442c8ad_1920_cc {
+		fill: rgba(239,239,239,1);
+	}
+	.apple-g1c442c8ad_1920_cc {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 1550px;
+		top: 2246px;
+	}
+	#n____cd {
+		left: 778px;
+		top: 1981px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 44px;
+		color: rgba(255,255,255,1);
+	}
+	#n____________ {
+		left: 778px;
+		top: 2076px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -10px;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(239,239,239,1);
+	}
+	#chevron-right {
+		fill: rgba(112,112,112,1);
+	}
+	.chevron-right {
+		overflow: visible;
+		position: absolute;
+		width: 24.176px;
+		height: 38.393px;
+		left: 1790px;
+		top: 1390.304px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Text_cg {
+		left: 1608px;
+		top: 2317px;
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_14 {
+		fill: rgba(33,37,41,1);
+	}
+	.n_14 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 558px;
+		left: 0px;
+		top: 3442px;
+	}
+	#n__Mirae_Retail_lnc {
+		left: 200px;
+		top: 3492px;
+		position: absolute;
+		overflow: visible;
+		width: 168px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 22px;
+		color: rgba(213,213,213,1);
+	}
+	#n__________201-03-77233___2021 {
+		left: 200px;
+		top: 3621px;
+		position: absolute;
+		overflow: visible;
+		width: 505px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(213,213,213,1);
+	}
+	#n_____________________________ {
+		left: 783px;
+		top: 3621px;
+		position: absolute;
+		overflow: visible;
+		width: 650px;
+		height: 121px;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(213,213,213,1);
+	}
+	#n__________ {
+		left: 1542px;
+		top: 3621px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		height: 109px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(213,213,213,1);
+	}
+	#people-g1db69c3e9_1920 {
+		position: absolute;
+		width: 720px;
+		height: 400px;
+		left: 200px;
+		top: 2904px;
+		overflow: visible;
+	}
+	#tissue-g576d0d462_1920 {
+		position: absolute;
+		width: 720px;
+		height: 400px;
+		left: 1000px;
+		top: 2904px;
+		overflow: visible;
+	}
+	#n___co {
+		left: 200px;
+		top: 2807px;
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans CJK KR;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		color: rgba(1,1,104,1);
+	}
+
+    nav {
+        font-family: 'NanumSquareBold';
+        font-size: large;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: navy;
+        list-style-type: none;
+    }
+    .submenu {
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .submenu :hover {
+        background-color: lightgray;
+        text-decoration-color: black;
+    }
+
+    .submenu a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
